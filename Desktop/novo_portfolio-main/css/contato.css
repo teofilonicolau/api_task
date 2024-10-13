@@ -1,0 +1,261 @@
+.form-box .form-value h2 {
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.form-box .form-value h2:hover {
+  color: gold;
+}
+
+.form-box fieldset legend {
+  cursor: pointer;
+
+  color: #eaffda;
+}
+
+.social-media-container a {
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.social-media-container a:hover {
+  transform: translateY(-3px);
+  color: gold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+/**/
+.form-box fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form-box legend {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+.inputbox {
+  margin-bottom: 15px;
+}
+
+.inputbox label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  background-color: #f7f7f7;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-bottom: 2px solid gold;
+  outline: none;
+}
+
+/* Botão de enviar */
+button[type="submit"] {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: gold;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+}
+
+.inputbox input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px;
+}
+
+.forget {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 15px;
+  font-size: 0.9em;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+  background: gold;
+  color: #fff;
+}
+.register {
+  font-size: 0.9em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+
+.register p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}
+
+.form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.09);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  transition: transform 0.5s;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: gold;
+}
+
+.social-media-container a {
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 20px;
+  color: #eaffda;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.social-media-container a:hover {
+  transform: translateY(-3px);
+  color: yellow;
+}

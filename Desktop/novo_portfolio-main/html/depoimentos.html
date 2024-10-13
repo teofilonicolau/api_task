@@ -1,0 +1,100 @@
+<html lang="en">
+  <head>
+    <title>Testemunhos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="nav-container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="/images/nicodev-removebg-preview.png" alt="logo" class="logo" />
+          </div>
+          <div class="nav-link">
+            <a href="/index.html">Home</a>
+            <a href="/projetos.html">Projetos</a>
+            <a href="/sobre.html">Sobre</a>
+            <a href="/contato.html">Fale Conosco</a>
+            <a href="/login.html">Login</a>
+          </div>
+          <div class="menu-btn-container">
+            <span id="menu-btn" class="fa fa-bars" aria-label="Menu"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content-container">
+      <div class="portfolio-text-container">
+        <div class="testimonial-container">
+          <h1 style="color: #eaffda">Depoimentos :</h1>
+          <div class="progress-bar"></div>
+          <div class="fas fa-quote-right fa-quote"></div>
+          <div class="fas fa-quote-left fa-quote"></div>
+          <p class="testimonial">
+            I've worked with literally hundreds of HTML/CSS developers and I have to say the top spot goes to this guy. This guy is an amazing
+            developer. He stresses on good, clean code and pays heed to the details. I love developers who respect each and every aspect of a
+            throughly thought out design and do their best to put it in code. He goes over and beyond and transforms ART into PIXELS - without a
+            glitch, every time.
+          </p>
+          <div class="user">
+            <img src="https://randomuser.me/api/portraits/women/46.jpg" alt="user" class="user-image" />
+            <div class="user-details">
+              <h4 class="username">Miyah Myles</h4>
+              <p class="role">Marketing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>© 2024 Teófilo Nicolau. Todos os direitos reservados.</p>
+        <ul class="footer-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/projetos.html">Projetos</a></li>
+          <li><a href="/pages/sobre.html">Sobre</a></li>
+          <li><a href="/pages/contato.html">Fale Conosco</a></li>
+          <li><a href="/pages/login.html">Login</a></li>
+        </ul>
+        <div class="social-media-container">
+          <a href="https://www.youtube.com/@teofilonicolau8402" target="_blank" aria-label="YouTube">
+            <i class="fa fa-youtube-play"></i>
+          </a>
+          <a href="https://www.instagram.com/nao_sou_robot/" target="_blank" aria-label="Instagram">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/teofilo-nicolau/" target="_blank" aria-label="LinkedIn">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+          <a href="https://github.com/teofilonicolau" target="_blank" aria-label="GitHub">
+            <i class="fa fa-github"></i>
+          </a>
+          <a href="https://wa.me/5588992145589" target="_blank" aria-label="WhatsApp">
+            <i class="fa fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="/js/depoimento.js"></script>
+    <script>
+      // Função para rolar a página automaticamente até o fim
+      window.onload = function () {
+        window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+      };
+    </script>
+  </body>
+</html>
