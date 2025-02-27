@@ -59,8 +59,25 @@ mvn spring-boot:run
   "title": "Nome da Tarefa",
   "completed": false
 }
-
 ```
+
+
+
+### Atualizar Tarefa:
+- Método: PUT
+- URL:  http://localhost:8080/api/tasks/1 (substitua 1 pelo ID da tarefa que deseja atualizar)
+
+Body (JSON):
+```bash
+ {
+  "title": "Tarefa atualizada",
+  "completed": true
+}
+```
+![image](https://github.com/user-attachments/assets/de0a5e64-1185-4eb7-a45e-cbefad003c6d)
+
+
+
 ### Excluir Tarefa
  - DELETE /api/tasks/{id}
  - DELETE: http://localhost:8080/api/tasks/3 (ou o ID da tarefa que deseja excluir).)
